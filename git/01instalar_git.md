@@ -1,5 +1,7 @@
 # **1. INSTALACIÓN DE GIT**
 
+Se presenta a continuacion los pasos para instalar y configurar git
+
 - [**1. INSTALACIÓN DE GIT**](#1-instalación-de-git)
   - [Actualización de paquetes](#actualización-de-paquetes)
   - [Instalacion de GIT](#instalacion-de-git)
