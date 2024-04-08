@@ -29,3 +29,4 @@
 | `git config --global --replace-all user.name "<Aquí va tu nombre modificado>"` | Modifica el nombre de usuario            |
 | `git config --global --unset-all user.name`                                    | Elimina nombre de usuario                |
 | `git config --global --add user.name "<Aquí va tu nombre>"`                    | Agrega un nombre de usuario              |
+| `git config --global core.editor vim`                                          | Cambia el editor para commits a vim      |
