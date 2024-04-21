@@ -1,11 +1,12 @@
-# **1. INSTALACIÓN DE GIT**
+# **1. INSTALACIÓN Y CONFIGURACIOENS DE GIT**
 
 Se presenta a continuacion los pasos para instalar y configurar git
 
-- [**1. INSTALACIÓN DE GIT**](#1-instalación-de-git)
+- [**1. INSTALACIÓN Y CONFIGURACIOENS DE GIT**](#1-instalación-y-configuracioens-de-git)
   - [Actualización de paquetes](#actualización-de-paquetes)
   - [Instalacion de GIT](#instalacion-de-git)
   - [Configuraciones](#configuraciones)
+    - [Configurar 'main' como rama principal](#configurar-main-como-rama-principal)
 
 
 ## Actualización de paquetes
@@ -32,3 +33,17 @@ Se presenta a continuacion los pasos para instalar y configurar git
 | `git config --global --unset-all user.name`                                    | Elimina nombre de usuario                |
 | `git config --global --add user.name "<Aquí va tu nombre>"`                    | Agrega un nombre de usuario              |
 | `git config --global core.editor vim`                                          | Cambia el editor para commits a vim      |
+
+
+### Configurar 'main' como rama principal
+
+| Comando                                       | Descripcion                                                                   |
+| --------------------------------------------- | ----------------------------------------------------------------------------- |
+| `git config --global init.defaultBranch main` | Configurar global de la rama principal                                        |
+| `git branch -a`                               | Verificación de nombre de rama principal                                      |
+| `git checout master`                          | ir a rama 'master'                                                            |
+| `git branch -M main`                          | Fuerza el renombrado de la rama principal                                     |
+| `git symbolic-ref HEAD refs/heads/main`       | Actualiza los simbolos de referencia                                          |
+| `git push -u REMOTENAME main`                 | Actualiza el repositorio remoto que para el ejemplo se llama ***REMOTENAME*** |
+| `git push REMOTEBRANCH --delete master`       | Elimina en el repositorio remoto llamado ***REMOTENAME*** la rama master |
+
