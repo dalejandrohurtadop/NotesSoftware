@@ -1,0 +1,20 @@
+# 6. Crear y conectar repositorios remotos y locales
+
+- [6. Crear y conectar repositorios remotos y locales](#6-crear-y-conectar-repositorios-remotos-y-locales)
+  - [Secuencia de comandos para conectar repositorios](#secuencia-de-comandos-para-conectar-repositorios)
+
+## Secuencia de comandos para conectar repositorios
+
+| Comando                                                         | Descripción                                                                                                                                                                                           |
+| --------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `git init`                                                      | Se crea el repositorio en local                                                                                                                                                                       |
+| `git remote add origin <direcion de repositorio SSH de github>` | Guardar la URL del repositorio de GitHub con el nombre de origin                                                                                                                                      |
+| `git remote -v`                                                 | Verificación de conexión con repositorio remoto                                                                                                                                                       |
+| `git config pull.rebase false`                                  | hacer merge (estrategia por defecto)                                                                                                                                                                  |
+| `git pull origin main --allow-unrelated-histories`              | Traer la versión del repositorio remoto y hacer merge para crear un commit con los archivos de ambas partes. Podemos usar git fetch y git mergeo solo git pullcon el flag --allow-unrelated-histories |
+| `git pull origin main`                                          | Integrar el repositorio remoto al repositorio local                                                                                                                                                   |
+| `git push origin main`                                          | Enviar lo contenido en el repositorio local al repostorio de github                                                                                                                                   |
+| `git remote set-url origin <url_del_repositorio> `              | Forma de cambiar en local la ubicación del repositorio remoto                                                                                                                                         |
+| `git commit --amend`                                            | Permite editar el ultimo commit, corrigiendo errores de tipado o de ortografia                                                                                                                        |
+| `git push --set-upstream origin {main}`                         | Permite enviar al repositorio remoto el ajuste o la edición al commit editado en el paso anterior, de la rama con nombre main                                                                         |
+| `git clone <direcion de repositorio SSH de github>`             | Clona el repositorio remoto en local en la carpeta de ubicación                                                                                                                                       |
