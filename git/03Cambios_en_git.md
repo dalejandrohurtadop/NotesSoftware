@@ -51,9 +51,6 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 
 ![Esquema de marcacion por areas en GIT](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/Dibujo1.jpg)
 
-<img src="https://github.com/Rishit-dagli/Rishit-dagli/blob/master/communities/kotlin_mumbai.png" height="100px">
-
-
 
 ## Analizar cambios en git
 
