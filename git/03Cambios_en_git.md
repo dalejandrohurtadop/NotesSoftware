@@ -49,7 +49,7 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 
         git commit --amend
 
-![Esquema de marcacion por areas en GIT](https://imgur.com/sZxtURx)
+![Esquema de marcacion por areas en GIT](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/Dibujo1.jpg)
 
 
 
