@@ -42,7 +42,7 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 
    Son todos los archivos marcados en sus diferentes versiones, los cuales a su tiempo fuero añadidos al repositorio mediente los comandos
 
-        git add "nombe_archivo"
+        git add "nombre_archivo"
         git commit -m "Mensaje del commit"
 
     Cuando se necesita modificar el ultimo commit realizado por un error se puede utilizar el siguiente comando
@@ -67,7 +67,7 @@ Los siguientes comandos se caracteriszan por poder volver a una version pasada p
 
 ### Reseteado Blando
 
-    `git reset --soft [codigo version n]`
+    git reset --soft [codigo version n]
 
 * Quita las versiones que fueron subidas después de la versión  n pero conserva lo que se encuentre en staging
 * Es decir conserva el archivo que fue marcado con add
@@ -76,14 +76,14 @@ Los siguientes comandos se caracteriszan por poder volver a una version pasada p
 
 ### Reseteado duro
 
-    `git reset --hard [codigo version n]`
+    git reset --hard [codigo version n]
     
 * Quita las versiones que fueron subidas después de la versión  n sin conserva lo que se encuentre en staging
 * La versión vigente es la versión n
 
 ### Reseteado Mixto
 
-    `git reset --mixed [codigo version n]`
+    git reset --mixed [codigo version n]
     
 * Quita las versiones que fueron subidas después de la versión  n pero conserva lo que se encuentre en el working area
 * si se hizo un add al archivo, esto no se conserva
@@ -91,15 +91,15 @@ Los siguientes comandos se caracteriszan por poder volver a una version pasada p
 
 ### Reseteado precommit
 
-    `git reset HEAD <Nombre archivo [version b]>`
-    `git rm -cached <Nombre del archivo>`
+    git reset HEAD <Nombre archivo [version b]>
+    git rm -cached <Nombre del archivo>
 
 * Quita las versiones pasando el archivo de satged a unstaged, es decir previo al evento de haberle dado add al archivo
 
 
 ### Devolver a versiones con checkout
 
-    `git checkout [#commit] <nombre_archivo>`
+    git checkout [#commit] <nombre_archivo>
 
 Por medio del comando 'checkout' es posible ir hasta un comentaio especifico o la cabecera de una rama de un archivo seleccionado.
 
@@ -107,6 +107,6 @@ Este comando hace que se en el Unsteged se registre como una versión lista para
 
 ### Eliminar archivos
 
-    `git rm --force <nombre del archivo>`
+    git rm --force <nombre del archivo>
 
 Con este acomando ademas de borrar el archivo del repositorio de git, tambien lo borra del disco duro sin posibilidad de recuperarlo
