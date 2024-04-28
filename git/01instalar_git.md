@@ -47,3 +47,8 @@ Se presenta a continuacion los pasos para instalar y configurar git
 | `git push -u REMOTENAME main`                 | Actualiza el repositorio remoto que para el ejemplo se llama ***REMOTENAME*** |
 | `git push REMOTEBRANCH --delete master`       | Elimina en el repositorio remoto llamado ***REMOTENAME*** la rama master |
 
+
+## Recursos externos
+
+1. Editor MarkDown: [Editor MarckDown](https://pandao.github.io/editor.md/en.html)
+2. Material adicional git: [Guía avanzada ¿Qué es git?](https://aulab.es/articulos-guias-avanzadas/54/que-es-git)
