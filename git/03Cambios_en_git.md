@@ -63,7 +63,7 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 
 Por medio de git log, es posible visualizar de forma grafica los cambios realizados en el repositorio de forma condensada tanto cuando se tiene una sola rama o se ha trabajado en multiples ramas. para esto se utiliza el siguiente comando:
 
-    git log --graph --decorate --oneline
+    git log --all --graph --decorate --oneline
 
 ![Esquema de grafico con git log](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/git_log.png)
 
