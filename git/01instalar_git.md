@@ -7,6 +7,7 @@ Se presenta a continuacion los pasos para instalar y configurar git
   - [Instalacion de GIT](#instalacion-de-git)
   - [Configuraciones](#configuraciones)
     - [Configurar 'main' como rama principal](#configurar-main-como-rama-principal)
+  - [**Recursos externos**](#recursos-externos)
 
 
 ## Actualización de paquetes
@@ -48,7 +49,8 @@ Se presenta a continuacion los pasos para instalar y configurar git
 | `git push REMOTEBRANCH --delete master`       | Elimina en el repositorio remoto llamado ***REMOTENAME*** la rama master |
 
 
-## Recursos externos
+## **Recursos externos**
 
 1. Editor MarkDown: [Editor MarckDown](https://pandao.github.io/editor.md/en.html)
 2. Material adicional git: [Guía avanzada ¿Qué es git?](https://aulab.es/articulos-guias-avanzadas/54/que-es-git)
+3. Explicacion comandos shell: https://explainshell.com/
