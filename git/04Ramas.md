@@ -12,7 +12,7 @@ Por medio del concepto de Ramas es posble trabajar porciones de código en difer
 
 Generalmente por convención se maneja en los proyectos una rama principal en la que se usa como rama para salir a producción, al igual otras ramas de trabajo y ramas para ajustar errores.
 
-![Dibujo2](/picture/Dibujo2.png "Diferentes Ramas y fusión de ramas")
+![Diferentes Ramas y fusión de ramas]([/picture/Dibujo2.png](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/Dibujo2.png) "Diferentes Ramas y fusión de ramas")
 
 ## Crear Ramas
 
@@ -45,7 +45,7 @@ Una vez hecho esto se debe seguir el siguiente procedimeinto
 | `git branch -d [Nombre rama a borrar]` | Borra una Rama: La opción -d eliminará la branch únicamente si esta ha sido empujada y fusionada con la branch remota. Utiliza -D si deseas forzar la eliminación de una branch, incluso si aún esta no ha sido empujada o fusionada aún. |
 | `git push <Nombre_repo_remoto> --delete [Nombre Rama a borrar]`                                                           | Borrado de rama en repositorio remoto |
 
-![Dibujo3](/picture/Dibujo3.png "Fusionar ramas")
+![Fusionar ramas](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/Dibujo3.png "Fusionar ramas")
 
     >Los conflictos en el proceso de merge suceden cuando en dos ramas de forma simultanea se esta editando o modificando las mismas lineas.
     En este caso git marcara los conflicto con las diferencias de edición y sera el usuario que solucione los conflictos.
