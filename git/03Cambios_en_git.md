@@ -61,6 +61,12 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 | `git show <Archivo>`                           | Ver cambios. Muestra el commit de la versión actual HEAD → Main.Muestran las diferencias entre la versión HEAD y la versión anterior                                                                           |
 | `git diff [codigo versio b] [codigo versio a]` | Ver diferencia entre versiones. Muestra en consola las diferencias que hubo con respecto a la versión “a” y la versión “b”, siendo recomendable que la versión “b” sea la mas reciente frente a la versión “a” |
 
+Por medio de git log, es posible visualizar de forma grafica los cambios realizados en el repositorio de forma condensada tanto cuando se tiene una sola rama o se ha trabajado en multiples ramas. para esto se utiliza el siguiente comando:
+
+    git log --graph --decorate --oneline
+
+![Esquema de grafico con git log](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/git_log.png)
+
 ## Volver a versiones pasadas
 
 Los siguientes comandos se caracteriszan por poder volver a una version pasada pero con la imposibilidad que una vez en la version pasada poder volver a versiones posteriores
