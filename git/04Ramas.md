@@ -12,7 +12,7 @@ Por medio del concepto de Ramas es posble trabajar porciones de código en difer
 
 Generalmente por convención se maneja en los proyectos una rama principal en la que se usa como rama para salir a producción, al igual otras ramas de trabajo y ramas para ajustar errores.
 
-![Diferentes Ramas y fusión de ramas]([/picture/Dibujo2.png](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/Dibujo2.png) "Diferentes Ramas y fusión de ramas")
+![Diferentes Ramas y fusión de ramas](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/Dibujo2.png "Diferentes Ramas y fusión de ramas")
 
 ## Crear Ramas
 
