@@ -18,7 +18,7 @@ Tiene como caracteristica principal que los cambios guardados no pasan por la co
 | `git stash`                 | Guardan los cambios temporales                                         |
 | `git stash save "Mensaje"`  | Guarda los cambios con un mensaje asociado                             |
 | `git stash list`            | Muestra la lista de cambios temporales                                 |
-| `git stash pop `            | Trae de vuelta los cambios que teníamos guardados en el ultimo stash   |
+| `git stash pop `            | Trae devuelta los cambios que teníamos guardados en el ultimo stash    |
 | `git stash apply stash@{n}` | Trae el stash que necesites con indicar su número dentro de las llaves |
 | `git stash drop`            | Borra el ultimo stash                                                  |
 | `git stash clear`           |  Borra todos los stash  |
