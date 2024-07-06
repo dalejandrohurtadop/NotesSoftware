@@ -1,10 +1,10 @@
-# **1. INSTALACIÓN Y CONFIGURACIOENS DE GIT**
+# **1. INSTALACIÓN Y CONFIGURACIONES DE GIT**
 
-Se presenta a continuacion los pasos para instalar y configurar git
+Se presenta a continuación los pasos para instalar y configurar git
 
-- [**1. INSTALACIÓN Y CONFIGURACIOENS DE GIT**](#1-instalación-y-configuracioens-de-git)
+- [**1. INSTALACIÓN Y CONFIGURACIONES DE GIT**](#1-instalación-y-configuraciones-de-git)
   - [Actualización de paquetes](#actualización-de-paquetes)
-  - [Instalacion de GIT](#instalacion-de-git)
+  - [Instalación de GIT](#instalacion-de-git)
   - [Configuraciones](#configuraciones)
     - [Configurar 'main' como rama principal](#configurar-main-como-rama-principal)
   - [**Recursos externos**](#recursos-externos)
@@ -17,7 +17,7 @@ Se presenta a continuacion los pasos para instalar y configurar git
 | `sudo apt-get update` | Busca actualizaciones                                |
 | `sudo apt upgrade`    | Ejecuta la instaclacion de los paquetes a actualizar |
 
-## Instalacion de GIT
+## Instalación de Git
 
 | Comado                | Descripción                          |
 | --------------------- | ------------------------------------ |
@@ -28,7 +28,7 @@ Se presenta a continuacion los pasos para instalar y configurar git
 
 | Comado                                                                         | Descripción                              |
 | ------------------------------------------------------------------------------ | ---------------------------------------- |
-| `agit config --global user.email "<tu@email.com>"`                             | Configura el email asociada a la cuenta  |
+| `git config --global user.email "<tu@email.com>"`                             | Configura el email asociada a la cuenta  |
 | `git config --global user.name "<Tu Nombre>"`                                  | Configura el nombre asociado a la cuenta |
 | `git config --global --replace-all user.name "<Aquí va tu nombre modificado>"` | Modifica el nombre de usuario            |
 | `git config --global --unset-all user.name`                                    | Elimina nombre de usuario                |
@@ -53,4 +53,4 @@ Se presenta a continuacion los pasos para instalar y configurar git
 
 1. Editor MarkDown: [Editor MarckDown](https://pandao.github.io/editor.md/en.html)
 2. Material adicional git: [Guía avanzada ¿Qué es git?](https://aulab.es/articulos-guias-avanzadas/54/que-es-git)
-3. Explicacion comandos shell: https://explainshell.com/
+3. Explicación comandos shell: https://explainshell.com/

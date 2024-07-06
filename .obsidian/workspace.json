@@ -1,0 +1,160 @@
+{
+  "main": {
+    "id": "b43cdd57b753ebf0",
+    "type": "split",
+    "children": [
+      {
+        "id": "3dd553e7e69fdef9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2f129c73e0e23d58",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "entornos_trabajo/notas_ambientes_virtuales.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "90dd72d62578273c",
+    "type": "split",
+    "children": [
+      {
+        "id": "e5252213aa3b8912",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "8d13ff650969cb0b",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3f9989db74ef43e8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "875cfa725b1eff3c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "64832b7b487d0540",
+    "type": "split",
+    "children": [
+      {
+        "id": "10d59188d6c06f1b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "881bc7411ec86dbb",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "entornos_trabajo/notas_ambientes_virtuales.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "821dfbeb7c914500",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "entornos_trabajo/notas_ambientes_virtuales.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "1225e2cad160371e",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "2360ba0f3884ef29",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "entornos_trabajo/notas_ambientes_virtuales.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false
+    }
+  },
+  "active": "2f129c73e0e23d58",
+  "lastOpenFiles": [
+    "README.md",
+    "2024-07-06.md",
+    "git/picture/Dibujo2.png",
+    "git/picture/Dibujo1.jpg",
+    "panda_datos/venv/lib/python3.12/site-packages/zmq/backend/cffi/README.md",
+    "git/03Cambios_en_git.md",
+    "git/02Crear_repositorio.md",
+    "git/01instalar_git.md"
+  ]
+}

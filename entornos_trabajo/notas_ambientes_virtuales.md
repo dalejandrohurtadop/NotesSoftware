@@ -23,3 +23,4 @@ Para la instalación es necesario descargar desde el navegador ya sea anaconda o
 ### Crear ambientes virtuales
 
 Por defecto en la instalacion de
+

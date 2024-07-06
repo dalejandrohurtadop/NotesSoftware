@@ -12,9 +12,9 @@
     - [Eliminar archivos](#eliminar-archivos)
 
 
-Para comprender git, es necesario interiorizar que existen tres areas o tipos de marcación de arcuivos en el entorno de trabajo en git.
+Para comprender git, es necesario interiorizar que existen tres areas o tipos de marcación de archivos en el entorno de trabajo en git.
 
-## Areas de marcación de git
+## Áreas de marcación de git
 
 Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuentra en preparación para ser añadido al repositorio o en definitiva no esta rastreado aun para entrar al repositorio.
 
