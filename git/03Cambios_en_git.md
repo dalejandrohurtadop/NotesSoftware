@@ -28,7 +28,7 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 
    En esta area se encuantran todos los archivos en los cuales explicitamente no se han ignorado para ser rastreados dentro de una carpeta en la que se inicializó git.
 
-   En esta area se divide en dos partes, la Unstaged y la Staged
+   En esta área se divide en dos partes, la Unstaged y la Staged
    
     **2.1. Unstaged**
 
@@ -36,11 +36,11 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 
     **2.2. Staged**
 
-    Se amrcan todos los archivos que se ha expresado la intención de añadirlos al repositorio pero no se ha confirmado el ingreso al mismo con un commit
+    Se marcan todos los archivos que se ha expresado la intención de añadirlos al repositorio pero no se ha confirmado el ingreso al mismo con un commit
     
 3. **Git repository**
 
-   Son todos los archivos marcados en sus diferentes versiones, los cuales a su tiempo fuero añadidos al repositorio mediente los comandos
+   Son todos los archivos marcados en sus diferentes versiones, los cuales a su tiempo fuero añadidos al repositorio mediante los comandos
 
         git add "nombre_archivo"
         git commit -m "Mensaje del commit"
@@ -49,8 +49,7 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 
         git commit --amend
 
-![Esquema de marcacion por areas en GIT](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/Dibujo1.jpg)
-
+![Esquema de marcacion por areas en GIT](https://github.com/dalejandrohurtadop/NotesSoftware/blob/main/git/picture/Dibujo1.jpg)
 
 ## Analizar cambios en git
 
@@ -61,15 +60,15 @@ Estas areas defienn si un archiva se encuentra dentro del repositorio, se encuen
 | `git show <Archivo>`                           | Ver cambios. Muestra el commit de la versión actual HEAD → Main.Muestran las diferencias entre la versión HEAD y la versión anterior                                                                           |
 | `git diff [codigo versio b] [codigo versio a]` | Ver diferencia entre versiones. Muestra en consola las diferencias que hubo con respecto a la versión “a” y la versión “b”, siendo recomendable que la versión “b” sea la mas reciente frente a la versión “a” |
 
-Por medio de git log, es posible visualizar de forma grafica los cambios realizados en el repositorio de forma condensada tanto cuando se tiene una sola rama o se ha trabajado en multiples ramas. para esto se utiliza el siguiente comando:
+Por medio de git log, es posible visualizar de forma gráfica los cambios realizados en el repositorio de forma condensada tanto cuando se tiene una sola rama o se ha trabajado en múltiples ramas. para esto se utiliza el siguiente comando:
 
     git log --all --graph --decorate --oneline
 
-![Esquema de grafico con git log](https://github.com/dalejandrohurtadop/PyNotas/blob/main/git/picture/git_log.png)
+![Esquema de gráfico con git log](https://github.com/dalejandrohurtadop/NotesSoftware/blob/main/git/picture/git_log.png)
 
 ## Volver a versiones pasadas
 
-Los siguientes comandos se caracteriszan por poder volver a una version pasada pero con la imposibilidad que una vez en la version pasada poder volver a versiones posteriores
+Los siguientes comandos se caracterizan por poder volver a una versión pasada pero con la imposibilidad que una vez en la versión pasada poder volver a versiones posteriores
 
 ### Reseteado Blando
 
@@ -107,12 +106,12 @@ Los siguientes comandos se caracteriszan por poder volver a una version pasada p
 
     git checkout [#commit] <nombre_archivo>
 
-Por medio del comando 'checkout' es posible ir hasta un comentaio especifico o la cabecera de una rama de un archivo seleccionado.
+Por medio del comando 'checkout' es posible ir hasta un comentario especifico o la cabecera de una rama de un archivo seleccionado.
 
-Este comando hace que se en el Unsteged se registre como una versión lista para adicionar add como la version mas reciente.
+Este comando hace que se en el Unsteged se registre como una versión lista para adicionar add como la versión mas reciente.
 
 ### Eliminar archivos
 
     git rm --force <nombre del archivo>
 
-Con este acomando ademas de borrar el archivo del repositorio de git, tambien lo borra del disco duro sin posibilidad de recuperarlo
+Con este comando ademas de borrar el archivo del repositorio de git, también lo borra del disco duro sin posibilidad de recuperarlo

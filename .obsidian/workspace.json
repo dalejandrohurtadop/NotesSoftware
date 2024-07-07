@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "3dd553e7e69fdef9",
+        "id": "d9ddd0e3e937a599",
         "type": "tabs",
         "children": [
           {
-            "id": "2f129c73e0e23d58",
+            "id": "1547072e88979512",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "entornos_trabajo/notas_ambientes_virtuales.md",
+                "file": "git/06Crear_repositorio_remoto.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "entornos_trabajo/notas_ambientes_virtuales.md",
+                "file": "git/06Crear_repositorio_remoto.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "entornos_trabajo/notas_ambientes_virtuales.md",
+                "file": "git/06Crear_repositorio_remoto.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "entornos_trabajo/notas_ambientes_virtuales.md"
+                "file": "git/06Crear_repositorio_remoto.md"
               }
             }
           }
@@ -146,14 +146,20 @@
       "command-palette:Abrir paleta de comandos": false
     }
   },
-  "active": "2f129c73e0e23d58",
+  "active": "1547072e88979512",
   "lastOpenFiles": [
+    "git/03Cambios_en_git.md",
+    "().md",
+    "git/04Ramas.md",
+    "git/05Llaves_entorno_local.md",
+    "git/07git_tag.md",
+    "git/06Crear_repositorio_remoto.md",
+    "entornos_trabajo/notas_ambientes_virtuales.md",
     "README.md",
     "2024-07-06.md",
     "git/picture/Dibujo2.png",
     "git/picture/Dibujo1.jpg",
     "panda_datos/venv/lib/python3.12/site-packages/zmq/backend/cffi/README.md",
-    "git/03Cambios_en_git.md",
     "git/02Crear_repositorio.md",
     "git/01instalar_git.md"
   ]
