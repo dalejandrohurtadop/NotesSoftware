@@ -1,0 +1,24 @@
+\babel@toc {spanish}{}\relax 
+\contentsline {section}{\numberline {1}Introducción}{3}{}%
+\contentsline {section}{\numberline {2}Generalidades}{3}{}%
+\contentsline {subsection}{\numberline {2.1}Niveles de los titulos}{3}{}%
+\contentsline {subsubsection}{\numberline {2.1.1}Ejemplo de titulo de 3 nivel}{3}{}%
+\contentsline {subsection}{\numberline {2.2}Paragrafos}{3}{}%
+\contentsline {paragraph}{Ejemplo de paragrafo}{3}{}%
+\contentsline {subparagraph}{Ejemplo de paragrafo de segundo nivel}{3}{}%
+\contentsline {section}{\numberline {3}Listas}{3}{}%
+\contentsline {subsection}{\numberline {3.1}Listas enumeradas}{4}{}%
+\contentsline {subsubsection}{\numberline {3.1.1}Ejemplo lista numerales}{4}{}%
+\contentsline {subsubsection}{\numberline {3.1.2}Ejemplo lista literales}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Lista de itens no numerados}{4}{}%
+\contentsline {subsection}{\numberline {3.3}Lista combinada}{4}{}%
+\contentsline {section}{\numberline {4}Figuras}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Figuras simples}{5}{}%
+\contentsline {subsection}{\numberline {4.2}Figuras Compuestas}{5}{}%
+\contentsline {section}{\numberline {5}Tablas}{6}{}%
+\contentsline {section}{\numberline {6}Citas bibliograficas}{7}{}%
+\contentsline {section}{\numberline {7}Ecuaciones}{7}{}%
+\contentsline {subsection}{\numberline {7.1}Ecuaciones simples sobre linea}{7}{}%
+\contentsline {subsection}{\numberline {7.2}Ecuaciones en linea diferente}{7}{}%
+\contentsline {subsection}{\numberline {7.3}Ecuaciones numeradsa}{7}{}%
+\contentsline {section}{\numberline {8}Template o plantillas}{8}{}%

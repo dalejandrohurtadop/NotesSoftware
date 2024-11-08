@@ -1,0 +1,107 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.2 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{nty/global//global/global}
+    \entry{TalasExcel}{website}{}
+      \name{author}{1}{}{%
+        {{hash=376b1ae94575d74a87d363887dc8e728}{%
+           family={Kokan},
+           familyi={K\bibinitperiod},
+           given={Ivan},
+           giveni={I\bibinitperiod}}}%
+      }
+      \strng{namehash}{376b1ae94575d74a87d363887dc8e728}
+      \strng{fullhash}{376b1ae94575d74a87d363887dc8e728}
+      \strng{bibnamehash}{376b1ae94575d74a87d363887dc8e728}
+      \strng{authorbibnamehash}{376b1ae94575d74a87d363887dc8e728}
+      \strng{authornamehash}{376b1ae94575d74a87d363887dc8e728}
+      \strng{authorfullhash}{376b1ae94575d74a87d363887dc8e728}
+      \field{sortinit}{K}
+      \field{sortinithash}{c02bf6bff1c488450c352b40f5d853ab}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consultado el 25/10/24}
+      \field{title}{Excel2LaTeX}
+      \field{year}{2017}
+      \verb{urlraw}
+      \verb https://github.com/ivankokan/Excel2LaTeX/releases/tag/v3.5.0
+      \endverb
+      \verb{url}
+      \verb https://github.com/ivankokan/Excel2LaTeX/releases/tag/v3.5.0
+      \endverb
+    \endentry
+    \entry{EcuacionesMath}{website}{}
+      \name{author}{1}{}{%
+        {{hash=597327d314a4b470e452d4f8a87b2a8d}{%
+           family={Latex4technics},
+           familyi={L\bibinitperiod}}}%
+      }
+      \strng{namehash}{597327d314a4b470e452d4f8a87b2a8d}
+      \strng{fullhash}{597327d314a4b470e452d4f8a87b2a8d}
+      \strng{bibnamehash}{597327d314a4b470e452d4f8a87b2a8d}
+      \strng{authorbibnamehash}{597327d314a4b470e452d4f8a87b2a8d}
+      \strng{authornamehash}{597327d314a4b470e452d4f8a87b2a8d}
+      \strng{authorfullhash}{597327d314a4b470e452d4f8a87b2a8d}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consultado el 25/10/24}
+      \field{title}{TLatex4technics}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.latex4technics.com/
+      \endverb
+      \verb{url}
+      \verb https://www.latex4technics.com/
+      \endverb
+    \endentry
+    \entry{CitasBiliografica}{website}{}
+      \name{author}{1}{}{%
+        {{hash=83e0cf2db60103f0f4dc1d7bf2c00001}{%
+           family={LLC},
+           familyi={L\bibinitperiod},
+           given={Paperpile},
+           giveni={P\bibinitperiod}}}%
+      }
+      \strng{namehash}{83e0cf2db60103f0f4dc1d7bf2c00001}
+      \strng{fullhash}{83e0cf2db60103f0f4dc1d7bf2c00001}
+      \strng{bibnamehash}{83e0cf2db60103f0f4dc1d7bf2c00001}
+      \strng{authorbibnamehash}{83e0cf2db60103f0f4dc1d7bf2c00001}
+      \strng{authornamehash}{83e0cf2db60103f0f4dc1d7bf2c00001}
+      \strng{authorfullhash}{83e0cf2db60103f0f4dc1d7bf2c00001}
+      \field{sortinit}{L}
+      \field{sortinithash}{7c47d417cecb1f4bd38d1825c427a61a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Consultado el 25/10/24}
+      \field{title}{The 14 BibTeX entry types}
+      \field{year}{2024}
+      \verb{urlraw}
+      \verb https://www.bibtex.com/e/entry-types/
+      \endverb
+      \verb{url}
+      \verb https://www.bibtex.com/e/entry-types/
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
