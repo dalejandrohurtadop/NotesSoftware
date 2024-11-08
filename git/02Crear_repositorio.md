@@ -54,6 +54,7 @@ Es indispensable que el título del comentario sea claro en explicar de forma br
 
 Es comun que se utilicen algunos de los siguientes verbos
 
+* feat Una nueva caracteristica para el usuario
 * fix: Un parche para un error
 * style: Características o actualizaciones relacionadas con estilos
 * refactor: Refactorizar una sección específica de la base de código
